@@ -1,4 +1,4 @@
-# Push Box 1.0.0
+# Push Box 0.0.1
 ## Author: Raymond.Lx
 It's a windows console game without graphics but char.
 However,it may be funny i think.
