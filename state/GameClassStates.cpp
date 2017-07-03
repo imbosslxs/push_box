@@ -34,3 +34,18 @@ void MainMenuState::Excute(GameClass* gc){
 void MainMenuState::Exit(GameClass* gc){
 	gc->GetMainLayer()->find_child_by_key("main_menu_layer")->set_visible(false);
 }
+
+//====================AboutMenuState
+AboutMenuState *AboutMenuState::Instance(){
+	static AboutMenuState s;
+	return &s;
+}
+void AboutMenuState::Enter(GameClass* gc){
+	gc->GetMainLayer()->find_child_by_key("about_menu_layer")->set_visible(true);
+}
+void AboutMenuState::Excute(GameClass* gc){
+	
+}
+void AboutMenuState::Exit(GameClass* gc){
+	gc->GetMainLayer()->find_child_by_key("about_menu_layer")->set_visible(false);
+}

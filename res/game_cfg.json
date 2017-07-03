@@ -1,0 +1,11 @@
+{
+	"version":"0.0.1",
+	"window_size":[100,30],
+
+	"title_bct":{
+		"pos" : [31,3],
+		"path" : "res/title_bct.json"
+	},
+
+	"level_dir" : "res/levels"
+}

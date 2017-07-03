@@ -31,6 +31,18 @@ namespace push_box{
 			MainMenuState(){}
 			~MainMenuState(){}
 		};
+
+		class AboutMenuState : public State<GameClass>{
+		public:
+			static AboutMenuState *Instance();
+
+			virtual void Enter(GameClass*);
+			virtual void Excute(GameClass*);
+			virtual void Exit(GameClass*);
+
+			AboutMenuState(){}
+			~AboutMenuState(){}
+		};
 	}
 
 }

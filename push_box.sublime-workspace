@@ -1,0 +1,606 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Ga",
+				"GameClassStates"
+			],
+			[
+				"Sta",
+				"StateMachine"
+			],
+			[
+				"Get",
+				"GetGameVersion"
+			],
+			[
+				"Game",
+				"GameClassStates"
+			],
+			[
+				"tit",
+				"title_bct"
+			],
+			[
+				"mainle",
+				"m_main_layer"
+			],
+			[
+				"ti",
+				"title_bct"
+			],
+			[
+				"readf",
+				"read_file_all"
+			],
+			[
+				"Gam",
+				"GameResource"
+			],
+			[
+				"js",
+				"json_object_type_to_string"
+			],
+			[
+				"ga",
+				"game_cfg"
+			],
+			[
+				"LOGI",
+				"LOGI"
+			],
+			[
+				"LOG",
+				"LogType"
+			],
+			[
+				"Log",
+				"LogType"
+			],
+			[
+				"log",
+				"log_out"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"main",
+				"main_menu_layer"
+			],
+			[
+				"St",
+				"StateMachin"
+			],
+			[
+				"Et",
+				"EntityClass"
+			],
+			[
+				"fuc",
+				"func_name"
+			],
+			[
+				"fc",
+				"func_name"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "GameClass.cpp",
+			"settings":
+			{
+				"buffer_size": 4390,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "res/game_cfg.json",
+			"settings":
+			{
+				"buffer_size": 147,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "state/GameClassStates.h",
+			"settings":
+			{
+				"buffer_size": 911,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "state/GameClassStates.cpp",
+			"settings":
+			{
+				"buffer_size": 1214,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dog_engine_unit/label/label.h",
+			"settings":
+			{
+				"buffer_size": 760,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/comp_c++.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "mark",
+		"selected_items":
+		[
+			[
+				"mark",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: main()"
+			],
+			[
+				"",
+				"Build With: C++ Single File"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"cd"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/I/mcpp/push_box",
+		"/I/mcpp/push_box/dog_engine_unit",
+		"/I/mcpp/push_box/dog_engine_unit/json_object_type",
+		"/I/mcpp/push_box/dog_engine_unit/label",
+		"/I/mcpp/push_box/logs",
+		"/I/mcpp/push_box/res",
+		"/I/mcpp/push_box/state"
+	],
+	"file_history":
+	[
+		"/I/mcpp/push_box/GameResource.cpp",
+		"/I/mcpp/push_box/GameResource.h",
+		"/I/mcpp/push_box/res/game_cfg.json",
+		"/I/mcpp/push_box/state/GameClassStates.cpp",
+		"/I/mcpp/push_box/state/GameClassStates.h",
+		"/I/mcpp/push_box/makefile",
+		"/I/mcpp/push_box/dog_engine_unit/json_object_type/json_object_type.h",
+		"/I/mcpp/push_box/GameLog.cpp",
+		"/I/mcpp/push_box/main.cpp",
+		"/I/mcpp/push_box/GameLog.h",
+		"/I/noipTest/图论练习/最短路径/graph_generator.cpp",
+		"/I/noi_practises/P1001/P1001.cpp",
+		"/H/cocos2d-x-3.9/README.md",
+		"/H/mcpp/push_box/res/title.bct",
+		"/H/mcpp/push_box/GameClass.cpp",
+		"/C/Users/pc-shark/AppData/Roaming/Sublime Text 3/Packages/SmartMarkdown/Default.sublime-keymap",
+		"/C/Users/pc-shark/AppData/Roaming/Sublime Text 3/Packages/SmartMarkdown/SmartMarkdown.sublime-settings",
+		"/H/mcpp/push_box/makefile",
+		"/E/cc_project/projects/push_box/state/GameClassStates.cpp",
+		"/E/cc_project/projects/push_box/GameClass.cpp",
+		"/E/cc_project/projects/push_box/GameClass.h",
+		"/E/cc_project/dog_engine_unit_lib/main.cpp",
+		"/E/cc_project/dog_engine_unit_lib/main.h",
+		"/E/cc_project/projects/tank_boom/tank_boom/cocos2d/README.md",
+		"/E/cc_project/projects/smart_student/main.cpp",
+		"/E/cc_project/projects/smart_student/StudentStates.cpp",
+		"/E/cc_project/projects/tank_boom/tank_boom/Classes/HelloWorldScene.cpp",
+		"/E/cc_project/projects/tank_boom/tank_boom/Classes/AppDelegate.cpp",
+		"/E/cc_project/projects/tank_boom/tank_boom/Classes/AppDelegate.h",
+		"/E/cc_project/projects/tank_boom/tank_boom/Classes/HelloWorldScene.h",
+		"/E/cc_project/projects/smart_student/StateMachine.h",
+		"/E/cc_project/projects/smart_student/Student.h",
+		"/E/cc_project/projects/smart_student/State.h",
+		"/E/cc_project/projects/smart_student/EntityIDs.h",
+		"/C/Users/pc-shark/AppData/Roaming/Sublime Text 3/Packages/User/build_makefile_by_lx.sublime-build",
+		"/E/cc_project/projects/smart_student/Makefile.win",
+		"/E/cc_project/projects/smart_student/smart_student.makefile",
+		"/E/cc_project/projects/smart_student/smart_student.mk",
+		"/E/迅雷下载/Buckland_AIExecutables/Raven/Params.lua",
+		"/E/cc_project/cocos2d-x-3.15.1/tests/cpp-tests/Classes/Box2DTest/Box2dTest.h",
+		"/E/cc_project/cocos2d-x-3.15.1/tests/cpp-tests/Classes/Box2DTestBed/Test.cpp",
+		"/E/cc_project/cocos2d-x-3.15.1/tests/cpp-tests/Classes/Box2DTestBed/TestEntries.cpp",
+		"/E/cc_project/cocos2d-x-3.15.1/tests/cpp-tests/Classes/Box2DTest/Box2dTest.cpp",
+		"/H/BeatBall_source/Classes/HelloWorldScene.h",
+		"/H/BeatBall_source/Classes/HelloWorldScene.cpp",
+		"/H/mcpp/expression_calculator/main.cpp",
+		"/C/Users/pc-shark/AppData/Roaming/Sublime Text 3/Packages/User/build_cpp_gxx_by_lx.sublime-build",
+		"/H/mcpp/expression_calculator/exp_calculator.cpp",
+		"/H/project/json_reader/new/json.cpp",
+		"/C/Users/pc-shark/Desktop/a.cpp",
+		"/E/1501家长会2017.6.25/字幕.srt",
+		"/E/1501家长会2017.6.25/2010.01.28.srt",
+		"/E/1501家长会2017.6.25/2017.6.24.srt",
+		"/E/1501家长会2017.6.25/sound/evillaugh.wav",
+		"/C/Users/x/Desktop/test.cpp",
+		"/C/Users/x/Documents/devccpp_test/charlie_boomer/Makefile.win",
+		"/C/Users/x/Documents/devccpp_test/charlie_boomer/charlie_boomer_private.rc",
+		"/C/Users/x/Documents/devccpp_test/charlie_boomer/charlie.o",
+		"/C/Users/x/Documents/devccpp_test/charlie_boomer/charlie_boomer_private.res",
+		"/C/Users/x/Desktop/test/makefile",
+		"/C/Users/x/Desktop/test/build_makefile_by_lx.sublime-build",
+		"/C/Users/x/Desktop/test/build_cpp_gxx_by_lx.sublime-build",
+		"/C/Users/x/Desktop/test/test.cpp"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"D:",
+			"../../..",
+			"WriteHomeworkState",
+			"return",
+			"endl",
+			"dsa",
+			"ddasfag"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"../..",
+			"D:",
+			"GotoSleepState",
+			"EatingState",
+			"GotoCanteenState",
+			"GotoWCState",
+			"NotTakingClassState",
+			"TakingClassState",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "GameClass.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2675,
+								2675
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 973.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "res/game_cfg.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "state/GameClassStates.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 911,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								639,
+								639
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 387.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "state/GameClassStates.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1178,
+								1178
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 432.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "dog_engine_unit/label/label.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								630,
+								630
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 130.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/build_makefile_by_lx.sublime-build",
+	"project": "push_box.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sads",
+				"sadsadsadsad"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

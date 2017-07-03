@@ -1,0 +1,12 @@
+GameResource[INFO][Mon Jul 03 16:33:19 2017 ]:
+Loading game cfg file:res/game_cfg.json
+GameResource[INFO][Mon Jul 03 16:33:19 2017 ]:
+Analyzing...
+GameResource[INFO][Mon Jul 03 16:33:19 2017 ]:
+Loading completed.
+GameResource[INFO][Mon Jul 03 16:33:19 2017 ]:
+{
+	"version":"0.0.1",
+	"title_bct":"res/title_bct.json",
+	"level_dir":"res/levels"
+}

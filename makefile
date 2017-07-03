@@ -26,6 +26,8 @@ BIN = push_box.exe
 P_OBJECTS = main.o
 P_OBJECTS += state/GameClassStates.o
 P_OBJECTS += GameClass.o
+P_OBJECTS += GameLog.o
+P_OBJECTS += GameResource.o
 
 RM = rm.exe -f
 
@@ -47,6 +49,12 @@ GameClass.o : GameClass.cpp
 
 state/GameClassStates.o : state/GameClassStates.cpp
 	$(CC) -c state/GameClassStates.cpp -o state/GameClassStates.o $(FLAGS)
+
+GameLog.o : GameLog.cpp
+	$(CC) -c GameLog.cpp -o GameLog.o $(FLAGS)
+
+GameResource.o : GameResource.cpp
+	$(CC) -c GameResource.cpp -o GameResource.o $(FLAGS)
 
 $(TARGET_LIB) : $(OBJECT)
 	$(AR) crv $(TARGET_LIB) $(OBJECT) ./lib/bass.lib
