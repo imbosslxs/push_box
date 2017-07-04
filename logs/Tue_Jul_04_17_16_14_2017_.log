@@ -1,0 +1,10 @@
+GameResource[INFO][Tue Jul 04 17:16:14 2017 ]:
+Loading game cfg file:res/game_cfg.json
+GameResource[INFO][Tue Jul 04 17:16:14 2017 ]:
+Analyzing...
+GameResource[INFO][Tue Jul 04 17:16:14 2017 ]:
+Loading completed.
+GameClass[INFO][Tue Jul 04 17:16:15 2017 ]:
+Changing state to EnterGamingState...
+GameClassStates[INFO][Tue Jul 04 17:16:15 2017 ]:
+exit StartMenuState

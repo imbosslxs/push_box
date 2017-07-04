@@ -7,5 +7,10 @@
 		"path" : "res/title_bct.json"
 	},
 
-	"level_dir" : "res/levels"
+	"level":{
+		"level_dir" : "res/levels",
+		"now_level" : 0,
+		"max_level" : 1
+	}
+	
 }

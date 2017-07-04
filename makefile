@@ -28,6 +28,7 @@ P_OBJECTS += state/GameClassStates.o
 P_OBJECTS += GameClass.o
 P_OBJECTS += GameLog.o
 P_OBJECTS += GameResource.o
+P_OBJECTS += GameLevel.o
 
 RM = rm.exe -f
 
@@ -55,6 +56,9 @@ GameLog.o : GameLog.cpp
 
 GameResource.o : GameResource.cpp
 	$(CC) -c GameResource.cpp -o GameResource.o $(FLAGS)
+
+GameLevel.o : GameLevel.cpp
+	$(CC) -c GameLevel.cpp -o GameLevel.o $(FLAGS)
 
 $(TARGET_LIB) : $(OBJECT)
 	$(AR) crv $(TARGET_LIB) $(OBJECT) ./lib/bass.lib
