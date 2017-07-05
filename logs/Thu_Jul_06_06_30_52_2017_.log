@@ -1,0 +1,46 @@
+GameResource[INFO][Thu Jul 06 06:30:53 2017 ]:
+Loading game cfg file:res/game_cfg.json
+GameResource[INFO][Thu Jul 06 06:30:53 2017 ]:
+Analyzing...
+GameResource[INFO][Thu Jul 06 06:30:53 2017 ]:
+Loading completed.
+GameClass[INFO][Thu Jul 06 06:31:01 2017 ]:
+Changing state to EnterGamingState...
+GameClassStates[INFO][Thu Jul 06 06:31:01 2017 ]:
+exit StartMenuState
+GameClassStates[INFO][Thu Jul 06 06:31:01 2017 ]:
+EnterGamingState entering...pre
+GameClassStates[INFO][Thu Jul 06 06:31:01 2017 ]:
+EnterGamingState entering...
+GameClassStates[INFO][Thu Jul 06 06:31:01 2017 ]:
+Loading level file from res/levels/level_3.json
+GameLevel[INFO][Thu Jul 06 06:31:01 2017 ]:
+Reading file...
+GameLevel[INFO][Thu Jul 06 06:31:01 2017 ]:
+Readed basic cfg.
+GameLevel[INFO][Thu Jul 06 06:31:01 2017 ]:
+Created main_layer
+GameLevel[INFO][Thu Jul 06 06:31:01 2017 ]:
+Created second_layer
+GameLevel[INFO][Thu Jul 06 06:31:01 2017 ]:
+Added second_layer to main_layer
+GameLevel[INFO][Thu Jul 06 06:31:01 2017 ]:
+Readed walls.
+GameLevel[INFO][Thu Jul 06 06:31:01 2017 ]:
+Readed targets.
+GameLevel[INFO][Thu Jul 06 06:31:01 2017 ]:
+Readed box.
+GameLevel[INFO][Thu Jul 06 06:31:01 2017 ]:
+Readed spawn_point.
+GameLevel[INFO][Thu Jul 06 06:31:01 2017 ]:
+Level done.
+GameClassStates[INFO][Thu Jul 06 06:31:01 2017 ]:
+Load level done.
+GameClassStates[INFO][Thu Jul 06 06:31:01 2017 ]:
+window.w = 100
+GameClassStates[INFO][Thu Jul 06 06:31:01 2017 ]:
+main_layer.x = 42
+GameClassStates[INFO][Thu Jul 06 06:31:01 2017 ]:
+EnterGamingState done.
+GameClass[INFO][Thu Jul 06 06:31:01 2017 ]:
+Change to EnterGamingState done.

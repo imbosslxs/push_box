@@ -1,5 +1,5 @@
 {
-	"version":"0.0.1",
+	"version":"0.0.2",
 	"window_size":[100,30],
 
 	"title_bct":{
@@ -10,7 +10,7 @@
 	"level":{
 		"level_dir" : "res/levels",
 		"now_level" : 0,
-		"max_level" : 1
+		"max_level" : 3
 	}
 	
 }
