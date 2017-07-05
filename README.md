@@ -10,7 +10,7 @@ So,enjoy it or improve it whatever you like (or dislike...)
 
 -----Raymond.Lx 2017.7.3
 
-#How to make a level?
+# How to make a level?
 Firstly,create a txt file and write with
 4 ----- means that the level number is 4
 60000 ------ means that the level has only 60000ms to finished
