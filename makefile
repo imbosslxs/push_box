@@ -1,16 +1,17 @@
-# This file is writen by Lx on 2016.12.27
-# To make the project "Dog Engine Unit library and Dog Engine Unit Demo"
-# Using g++ 
+# This file is writen by Raymond.Lx on 2017.7.6
+# To make the project "Push box"
+# Using g++ 6.2.0
 # -m32
 
-CC = "../../Dev-Cpp/MinGW64/bin/g++.exe"
-AR = "../../Dev-Cpp/MinGW64/bin/ar.exe"
+# CC = "../../Dev-Cpp/MinGW64/bin/g++.exe"
+CC = "../../mingw64/mingw-w64/x86_64-6.2.0-release-posix-sjlj-rt_v5-rev1/mingw64/bin/g++.exe"
+AR = "../../mingw64/mingw-w64/x86_64-6.2.0-release-posix-sjlj-rt_v5-rev1/mingw64/bin/ar.exe"
 
 TARGET_LIB = ./lib/dog_engine_unit.lib
 
-LIBS = -L"../../Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc ../../Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32/libws2_32.a ./lib/bass.lib  -m32
-INCS = -I"./include" -I"../../Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"../../Dev-Cpp/MinGW64/include" -I"../../Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/6.2.0/include" -I"../../Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++"
-FLAGS = $(INCS) -std=c++11 -m32
+LIBS = -L"../../mingw64/mingw-w64/x86_64-6.2.0-release-posix-sjlj-rt_v5-rev1/mingw64/x86_64-w64-mingw32/lib32" -static-libgcc ../../mingw64/mingw-w64/x86_64-6.2.0-release-posix-sjlj-rt_v5-rev1/mingw64/x86_64-w64-mingw32/lib32/libws2_32.a ./lib/bass.lib  -m32
+INCS = -I"./include" -I"../../mingw64/mingw-w64/x86_64-6.2.0-release-posix-sjlj-rt_v5-rev1/mingw64/x86_64-w64-mingw32/include" -I"../../mingw64/mingw-w64/x86_64-6.2.0-release-posix-sjlj-rt_v5-rev1/mingw64/include" -I"../../mingw64/mingw-w64/x86_64-6.2.0-release-posix-sjlj-rt_v5-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include" -I"../../mingw64/mingw-w64/x86_64-6.2.0-release-posix-sjlj-rt_v5-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++"
+FLAGS = $(INCS) -static -m32
 
 OBJECT = dog_engine/dog_engine.o dog_engine_unit/dog_engine_unit.o dog_engine_unit/director/director.o dog_engine_unit/scene/scene.o dog_engine_unit/node/node.o dog_engine_unit/label/label.o dog_engine_unit/button/button.o dog_engine_unit/bitchar_type/bitchar_type.o dog_engine_unit/json_object_type/json_object_type.o dog_engine_unit/bitchar/bitchar.o
 OBJECT += dog_engine_unit/layer/layer.o dog_engine_unit/resouce/resouce.o
@@ -30,7 +31,7 @@ P_OBJECTS += GameLog.o
 P_OBJECTS += GameResource.o
 P_OBJECTS += GameLevel.o
 
-RM = rm.exe -f
+RM = del.exe
 
 .PHONY: all all-before all-after clean clean-custom
 
@@ -40,7 +41,7 @@ clean: clean-custom
 	${RM} $(OBJECT) $(BIN)
 
 $(BIN) : $(P_OBJECTS) $(TARGET_LIB)
-	$(CC) -o $(BIN) $(P_OBJECTS) $(TARGET_LIB) $(LIBS) 
+	$(CC) -o $(BIN) $(P_OBJECTS) $(TARGET_LIB) $(LIBS) $(FLAGS)
 
 main.o : main.cpp
 	$(CC) -c main.cpp -o main.o $(FLAGS)
@@ -117,8 +118,8 @@ dog_engine_unit/msgbar/msgbar.o : dog_engine_unit/msgbar/msgbar.cpp dog_engine_u
 dog_engine_unit/rate_controller/rate_controller.o : dog_engine_unit/rate_controller/rate_controller.cpp dog_engine_unit/rate_controller/rate_controller.h
 	$(CC) -c dog_engine_unit/rate_controller/rate_controller.cpp -o dog_engine_unit/rate_controller/rate_controller.o $(FLAGS)
 
-clean_o:
-	${RM} $(OBJECT)
+clean_o: $(OBJECT)
+	${RM} $<
 
 
 

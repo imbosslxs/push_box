@@ -10,7 +10,7 @@
 	"level":{
 		"level_dir" : "res/levels",
 		"now_level" : 0,
-		"max_level" : 3
+		"max_level" : 5
 	}
 	
 }
