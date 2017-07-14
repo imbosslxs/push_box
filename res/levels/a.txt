@@ -1,0 +1,12 @@
+5
+60000
+XXXXXXXXXX
+X  ####  X
+X  #OO#  X
+X ## O## X
+X #  @O# X
+X## @  ##X
+X#  #@@ #X
+X#  T   #X
+X########X
+XXXXXXXXXX
